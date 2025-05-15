@@ -7,9 +7,7 @@
   }
 
 
-  *{
-    background-color: beige;
-  }
+ 
 
   header{
     margin-bottom: 20px;
@@ -18,6 +16,7 @@
     background-color: white;
     display: flex;
     justify-content: space-around;
+    
   }
   .header-p{
     font-size: 32;
@@ -30,12 +29,16 @@
     font-weight: 600;
     width: 116px;
     height: 52px;
-    border: 1px solid #006A50;
+    border: none;
     border-radius: 5px;
     background-color: white;
+    border: 2px solid #006A50;
+    cursor: pointer;
   }
  .hero-section{
-    background-color: #006A50;
+    background-color: #3C916A;
+    border: none;
+    border-radius: 8px;
     
  }
 .hero-parent{
@@ -69,6 +72,7 @@
 .pillar-card-parent{
     display: flex;
    flex-direction: row;
+  
 }
 .pillar-child{
     width: 302px;
@@ -89,8 +93,8 @@
     max-width: 300px;         
     text-align: center;       
     margin-right: 15px;    
-    
-    margin-left: 150px;
+    margin-top: 22px;
+    margin-left: 50px;
   }
   
   .pillar-child img {
@@ -137,7 +141,7 @@
     gap: 20px;
   }
   
-  .digital-card {
+  .digital-card-one {
     width: 410.67px;
     height: 325px;
     background-color: yellow;
@@ -151,11 +155,55 @@
     justify-content: space-between;
   }
   
-  .digital-card img {
+  .digital-card-two {
+    width: 410.67px;
+    height: 325px;
+    background-color: rgb(21, 206, 197);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .digital-card-three {
+    width: 410.67px;
+    height: 325px;
+    background-color: rgb(206, 28, 191);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.digital-card-two img {
     width: 60px;
     height: 60px;
     margin: 0 auto 15px;
   }
+  .digital-card-three img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+  }
+
+.digital-card-one img{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+}
+
+.sheikh{
+  color: #8d80cf;
+}
   
   .digital-card h3 {
     margin-bottom: 10px;
@@ -176,4 +224,340 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  #quotes{
+    margin: 32px 160px 80px 160px;
+    padding: 20px;
+  }
+
+ 
+
+  .quote-text{
+    font-family: "Fira Sans", sans-serif;
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    position: relative;
+    font-size: 16px;
+    margin-top: -30px;
+    top: -30px;
+    padding-top: 20px;
+    font-weight: 400;
+    color: #0E0E0E;
+  }
+  .quote-header{
+    font-weight: 600;
+    font-size: 20px;
+    
+    font-family: "Fira Sans", sans-serif;
+    color: #0E0E0E;
+  }
+
+  .quote-description{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+  }
+
+  .recent-news{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+
+  }
+
+  .news-description{
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+  }
+
+  .international-news-parent{
+   display: flex;
+   justify-content: center;
+  }
+
+  .satelite-image{
+    width: 408px;
+    height: 308px;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    margin: 48px 32px 48px 48px;
+  }
+  .news-content-container{
+    margin: 32px 48px 56px 48px;
+  }
+
+  .satelite-heading{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  .satelite-date{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 400;
+  }
+  .satelite-time{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 400;
+  }
+  .satelite-description{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 400;
+  }
+  .satelite-btn{
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .donate-header{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+
+  .donate-description{
+    font-family: "Fira Sans", sans-serif;
+    font-weight:400;
+
+  }
+.donate-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   
+ 
+}
+
+  .card-one{
+    width: 240px;
+    height: 128px;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+        
+    text-align: center;
+   
+    border-radius: 8px;       
+   
+    font-size: 20px;   
+  }
+
+  .card-two{
+    width: 240px;
+    height: 128px;
+    background-color: #b9f1b1;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+        
+    text-align: center;
+   
+    border-radius: 8px;       
+   
+    font-size: 20px;   
+
+  }
+
+  .card-one:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+  }
+
+  .card-two:hover{
+    background-color: #e50d0d;
+    color: #8d80cf;
+  }
+  
+  .card-three{
+    width: 240px;
+    height: 128px;
+    background-color: #f518f5;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+        
+    text-align: center;
+   
+    border-radius: 8px;       
+   
+    font-size: 20px;   
+  }
+
+  .card-three:hover{
+    background-color: #d2f013;
+    color: #006A50;
+  }
+
+  .card-four{
+    width: 240px;
+    height: 128px;
+    background-color: #ed2213e0;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+        
+    text-align: center;
+   
+    border-radius: 8px;       
+   
+    font-size: 20px; 
+  }
+
+  .card-four:hover{
+    background-color: black;
+    color: #fa0909;
+  }
+
+  .donate-input{
+    width: 732;
+    height: 64px;
+    margin-top: 40px  32px 40px 32px;
+  }
+
+  .donate-input input{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    padding: 20px;
+    background-color: white;
+    border: none;box-sizing: border-box;
+  }
+  .button-container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 40px  32px 40px 32px;
+
+  }
+.news-letter-section{
+  background-color: #C6E4D6;
+  
+}
+  .donate-btn{
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  
+  }
+.newsletter-wrapper{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: #C6E4D6;
+}
+.news-letter-parent{
+  background-color: #C6E4D6;
+}
+
+  .news-letter-header{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+  }
+
+  .news-letter-description{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+  }
+
+
+.news-letter-input{
+  width: 600px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  padding: 0 10px;
+  margin: 0;
+  outline: none;
+}
+
+  .news-letter-spam{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+  }
+  .subscribe-btn{
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .footer-class{
+    display: flex;
+    flex-direction: column;     
+    align-items: center;         
+    justify-content: center;     
+    text-align: center;          
+    height: 200px;                
+    background-color: #f2f2f2;
+  }
+
+  
+.icon-container {
+  display: flex;
+  gap: 15px;                    
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icon-container img {
+  width: 30px;
+  height: 30px;
+}
